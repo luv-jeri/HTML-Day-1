@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px
+}
+
+#iPhonePhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+header h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header p {
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+header a {
+
+    color: #06c;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    initial-letter: -0.5px;
+}
+
+#section-one {
+    margin-top: 1rem;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#section-one video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+nav {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+}
+
+#nav-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+}
+
+#links a {
+    font-size: 0.7rem;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#links a:hover {
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#icon-container {
+    display: flex;
+    align-items: center;
+
+}
+
+#video-text {
+    color: white;
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+    text-align: center;
+}
+
+#video-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#video-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#video-text a {
+    text-decoration: none;
+    color: #06c;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#video-text a:hover {
+    text-decoration: underline;
+
+}
+
+#section-two {
+    margin-top: 1rem;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/aw/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_mediumtall.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+#section-three {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+#left-section-three {
+    flex: 1;
+    background-image: url("https://www.apple.com/v/home/aw/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#right-section-three {
+    flex: 1;
+    background-image: url("https://www.apple.com/v/home/aw/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
